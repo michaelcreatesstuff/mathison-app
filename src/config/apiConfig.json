@@ -1,0 +1,84 @@
+{
+  "connection": {
+    "hostname": "interview-assignment-backend.herokuapp.com",
+    "scheme": "https",
+    "defaultHeaders": {
+      "x-api-key": "hidden",
+      "x-client-id": "hidden",
+      "Authorization": "hidden",
+      "method": "GET"
+    }
+  },
+  "datasources": {
+    "categories": {
+      "method": "GET",
+      "uri": "/pages/categories",
+      "headers": {
+        "x-client-request-scope": "read_category"
+      }
+    },
+    "defining_and_tracking_dei": {
+      "method": "GET",
+      "uri": "/pages/defining_and_tracking_dei",
+      "headers": {
+        "x-client-request-scope": "read_category"
+      }
+    },
+    "sourcing_and_attracting": {
+      "method": "GET",
+      "uri": "/pages/sourcing_and_attracting",
+      "headers": {
+        "x-client-request-scope": "read_category"
+      }
+    },
+    "interviewing_and_engaging": {
+      "method": "GET",
+      "uri": "/pages/interviewing_and_engaging",
+      "headers": {
+        "x-client-request-scope": "read_category"
+      }
+    },
+    "onboarding_and_advancing": {
+      "method": "GET",
+      "uri": "/pages/onboarding_and_advancing",
+      "headers": {
+        "x-client-request-scope": "read_category"
+      }
+    },
+    "growing_dei_leaders": {
+      "method": "GET",
+      "uri": "/pages/growing_dei_leaders",
+      "headers": {
+        "x-client-request-scope": "read_category"
+      }
+    },
+    "hiring_for_diversity": {
+      "method": "GET",
+      "uri": "/pages/hiring_for_diversity",
+      "headers": {
+        "x-client-request-scope": "read_category"
+      }
+    },
+    "getBookmarks": {
+      "method": "GET",
+      "uri": "/bookmarks",
+      "headers": {
+        "x-client-request-scope": "read_bookmark"
+      }
+    },
+    "createBookmark": {
+      "method": "POST",
+      "uri": "/bookmarks",
+      "headers": {
+        "x-client-request-scope": "create_bookmark"
+      }
+    },
+    "deleteBookmark": {
+      "method": "DELETE",
+      "uri": "/bookmarks",
+      "headers": {
+        "x-client-request-scope": "delete_bookmark"
+      }
+    }
+  }
+}

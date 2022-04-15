@@ -1,0 +1,25 @@
+{
+  "navbarLinks": [
+    {
+      "text": "Jobs",
+      "link": "https://www.mathison.io/careers",
+      "linkType": "external"
+    },
+    {
+      "text": "Equal Hiring Index",
+      "link": "https://www.mathison.io/ehi-assessment",
+      "linkType": "external"
+    },
+    {
+      "text": "Knowledge Center",
+      "link": "/knowledge-center/categories",
+      "routeIfActive": "/knowledge-center",
+      "linkType": "internal"
+    },
+    {
+      "text": "Bias Scanner",
+      "link": "https://www.mathison.io/platform#bias",
+      "linkType": "external"
+    }
+  ]
+}
